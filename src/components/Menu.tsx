@@ -30,7 +30,7 @@ export default function Menu() {
         </div>
 
         {/* Category tabs */}
-        <div role="tablist" aria-label="Menu categories" className="mt-14 flex gap-8 border-b border-gold/20">
+        <div role="tablist" aria-label="Menu categories" className="mt-14 flex gap-8 overflow-x-auto hide-scrollbar whitespace-nowrap border-b border-gold/20">
           {menu.map((c) => (
             <button
               key={c.id}
